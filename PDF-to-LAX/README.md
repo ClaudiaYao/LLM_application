@@ -18,7 +18,7 @@ It is a bit complicated to understand the code structure. The documentation does
 ## 01 - simple_local_rag.ipynb
 This notebook is based upon the steps from 00 - use_pix2lax_pipeline.ipynb. Once getting the .md file for each pdf page, we could further process the .md file by splitting into sentence blocks, comparing the similarity between query and sentence blocks and finding the most similar sentences. Then we could use LLM model to generate new text based on the argumented reference information.
 
-# generate_dataset.ipynb
+## generate_dataset.ipynb
 This notebook provides some helper function. It provides routines to convert PDF files into images.
 
 
